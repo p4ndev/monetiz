@@ -1,4 +1,4 @@
-![MonetizAction](v0.0.4-English.png "Monetize Actions")
+![MonetizAction](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/v0.0.4-English.png "Monetize Actions")
 
 Experience a question-and-answer game where users can earn real money by predicting outcomes.
 
@@ -7,7 +7,7 @@ Experience a question-and-answer game where users can earn real money by predict
 
 Every prediction is linked to real-time events from live TV shows or streaming, delivering an engaging and interactive way to play.
 
-![Screens](Random.jpg)
+![Screens](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/Random.jpg)
 
 #See in Action
 - [Home](https://www.loom.com/embed/d858a2bc217949589847a1ec939a7737?sid=53a6d4a3-85f6-48bb-bb36-78688c76f941)
@@ -24,7 +24,7 @@ Everythins must be simpler and straight to the point, the main restriction is th
 
 Executions must follow the user interaction, no automatic execution is used due to the complexity inclusion at this moment.
 
-![Deployment](Architecture.jpg)
+![Deployment](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/Architecture.jpg)
 
 Back end was build in .Net Core based on a simples architecture style of client / server following some vertical concepts on its dependencies.
 
@@ -32,7 +32,7 @@ C Sharp (C#) was the Asp.Net Core language to express every business requirement
 
 Front end was built in React Native + Expo due to the future releases and possible native app development, but the first release will be 100% web browser.
 
-![Arena](Room.jpg)
+![Arena](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/Room.jpg)
 
 Typescript is the main language for back end project, to express clearly every single line of the code and follow best principles for the industry, on this case function programming is the style used.
 
@@ -40,16 +40,16 @@ No boilerplate / library (tailwind, material, bootstrap…) is used, just simple
 
 Focused on this MVP a monolith with a lowest cost on production providers (cloud, prem).
 
-![Core Projects](Core-Projects.png)
+![Core Projects](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/Core-Projects.png)
 
 #Backend
-![API](Api.webp)
+![API](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/Api.webp)
 
 ## Architecture
 https://youtu.be/LvsvttbihEI
 
 ## Solution
-![BE](BE-Solution.png)
+![BE](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/BE-Solution.png)
 
 ## Command
 - Run the command
@@ -63,7 +63,7 @@ https://youtu.be/LvsvttbihEI
 	- ``Visual Studio right click menu context``
 
 #Frontend
-![APP](App.webp)
+![APP](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/App.webp)
 
 ## Architecture
 https://youtu.be/za1F8jSitmo
@@ -90,10 +90,10 @@ https://youtu.be/za1F8jSitmo
 | [Withdraw](Withdraw-Use-Case.png) | [Initialization](Withdraw-Initialization.png) | [Bank Wire](Withdraw-Wire.png) |
 
 #Data
-![Entities](Entities.png)
+![Entities](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/Entities.png)
 
 ##Definition 
-![MAPS](Map-files.webp)
+![MAPS](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/Map-files.webp)
 
 ##Command
 - Account
@@ -106,13 +106,13 @@ https://youtu.be/za1F8jSitmo
 	- ``dotnet ef migrations add ______ --verbose --namespace Migrations.Room``
 
 ##Persisting
-![MIGRATIONS](Migrations.webp)
+![MIGRATIONS](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/Migrations.webp)
 
 - ``dotnet ef database update -- --environment=Development``
 - ``dotnet ef database update -- --environment=Production``
 
 #Quality
-![QPS](QPS-Solution.png)
+![QPS](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/QPS-Solution.png)
 
 ##Command
 - Development
@@ -121,9 +121,9 @@ https://youtu.be/za1F8jSitmo
 	- ``npm run start-prd``
 	
 ##Som Test Cases
-- [Sign in](QPS01-Test-Case.png)
-- [Elements Availability](QPS02-Test-Case.png)
-- [Content Restriction](QPS03-Test-Case.png)
+- [Sign in](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/QPS01-Test-Case.png)
+- [Elements Availability](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/QPS02-Test-Case.png)
+- [Content Restriction](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/QPS03-Test-Case.png)
 
 #Cloud / Premise
 [Locaweb - Hospedagem GO](https://www.locaweb.com.br/hospedagem-de-sites-com-dominio-gratis)
@@ -135,9 +135,9 @@ _8 BRL | Monthly | SSL, DNS, Storage e Bandwidth (Unlimited)_
 _10,60 BRL | Monthly | EU, 512 Mb Memory, 25Gb Storage, 2 Gb for 5 MySql Databases, Bandwidth (Unlimited)_
 
 #Etc
-- [Interface and Experience](v0.0.9.pdf)
-- [Accronyms Spreadsheet](Accronyms.pdf)
-- [Technical Conventions](Technical-Convention.pdf)
+- [Interface and Experience](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/v0.0.9.pdf)
+- [Accronyms Spreadsheet](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/Accronyms.pdf)
+- [Technical Conventions](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/Technical-Convention.pdf)
 
 #About
 I (gustavo_hen@hotmail.com) conceived, designed, developed, and researched the entire project during a freelancer contract, which serves as a Proof of Concept (PoC).
