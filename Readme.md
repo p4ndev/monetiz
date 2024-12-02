@@ -86,8 +86,8 @@ https://youtu.be/za1F8jSitmo
 ## Workflow
 | Requirement | Startup | Conclusion |
 |----------|:-------------:|------:|
-| [Purchase](Purchase-Use-Case.png) | [Initialization](Purchase-Initialization.png) | [Settlement](Purchase-Settle.png) |
-| [Withdraw](Withdraw-Use-Case.png) | [Initialization](Withdraw-Initialization.png) | [Bank Wire](Withdraw-Wire.png) |
+| [Purchase](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/Purchase-Use-Case.png) | [Initialization](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/Purchase-Initialization.png) | [Settlement](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/Purchase-Settle.png) |
+| [Withdraw](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/Withdraw-Use-Case.png) | [Initialization](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/Withdraw-Initialization.png) | [Bank Wire](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/Withdraw-Wire.png) |
 
 # Data
 ![Entities](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/Entities.png)
