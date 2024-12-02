@@ -120,7 +120,7 @@ https://youtu.be/za1F8jSitmo
 - Production
 	- ``npm run start-prd``
 	
-## Som Test Cases
+## Test Cases
 - [Sign in](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/QPS01-Test-Case.png)
 - [Elements Availability](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/QPS02-Test-Case.png)
 - [Content Restriction](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/QPS03-Test-Case.png)
