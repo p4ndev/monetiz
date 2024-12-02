@@ -9,7 +9,7 @@ Every prediction is linked to real-time events from live TV shows or streaming, 
 
 ![Screens](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/Random.jpg)
 
-#See in Action
+# See in Action
 - [Home](https://www.loom.com/embed/d858a2bc217949589847a1ec939a7737?sid=53a6d4a3-85f6-48bb-bb36-78688c76f941)
 - [Lobby / Activities / Shopping](https://www.loom.com/embed/d388d4ef1c6749ec9037cdc3e21f4228?sid=500ea5ca-a927-415c-a8fd-1197a110dcd7)
 - [Room](https://www.loom.com/embed/f0c3c06d8e5746b5918f6b64d1bce459?sid=37af9d16-f764-4df6-8b87-037cdf9685b0)
@@ -17,7 +17,7 @@ Every prediction is linked to real-time events from live TV shows or streaming, 
 - [Withdraw](https://www.loom.com/embed/ba618c66f298471d8430c16d12de8b65?sid=f7628e15-a663-44c1-909c-22c3c504ad77)
 - [MailCatcher / Sign Up](https://www.loom.com/embed/86f3bfc3f26f4e48be81799987459c2f?sid=0e9d3c7b-65a3-4bdc-8237-aa88a125a844)
 
-#Specifications
+# Specifications
 Communication will be based on restful concepts throught the JSON data, no extra execution proccess is allowed or used in this version (cron, broker, queue, interop, rpc...).
 
 Everythins must be simpler and straight to the point, the main restriction is the cloud bill cost for the first version, that will be a MVP with incremental directions based on the business evolution.
@@ -42,7 +42,7 @@ Focused on this MVP a monolith with a lowest cost on production providers (cloud
 
 ![Core Projects](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/Core-Projects.png)
 
-#Backend
+# Backend
 ![API](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/Api.webp)
 
 ## Architecture
@@ -62,7 +62,7 @@ https://youtu.be/LvsvttbihEI
 	- ``dotnet publish -c Release``
 	- ``Visual Studio right click menu context``
 
-#Frontend
+# Frontend
 ![APP](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/App.webp)
 
 ## Architecture
@@ -83,19 +83,19 @@ https://youtu.be/za1F8jSitmo
 - Folder to deploy
 	- ``cd dist``
 
-##Workflow
+## Workflow
 | Requirement | Startup | Conclusion |
 |----------|:-------------:|------:|
 | [Purchase](Purchase-Use-Case.png) | [Initialization](Purchase-Initialization.png) | [Settlement](Purchase-Settle.png) |
 | [Withdraw](Withdraw-Use-Case.png) | [Initialization](Withdraw-Initialization.png) | [Bank Wire](Withdraw-Wire.png) |
 
-#Data
+# Data
 ![Entities](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/Entities.png)
 
-##Definition 
+## Definition 
 ![MAPS](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/Map-files.webp)
 
-##Command
+## Command
 - Account
 	- ``dotnet ef migrations add ______ --verbose --namespace Migrations.Account``
 - Financial
@@ -105,27 +105,27 @@ https://youtu.be/za1F8jSitmo
 - Room
 	- ``dotnet ef migrations add ______ --verbose --namespace Migrations.Room``
 
-##Persisting
+## Persisting
 ![MIGRATIONS](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/Migrations.webp)
 
 - ``dotnet ef database update -- --environment=Development``
 - ``dotnet ef database update -- --environment=Production``
 
-#Quality
+# Quality
 ![QPS](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/QPS-Solution.png)
 
-##Command
+## Command
 - Development
 	- ``npm run start-dev``
 - Production
 	- ``npm run start-prd``
 	
-##Som Test Cases
+## Som Test Cases
 - [Sign in](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/QPS01-Test-Case.png)
 - [Elements Availability](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/QPS02-Test-Case.png)
 - [Content Restriction](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/QPS03-Test-Case.png)
 
-#Cloud / Premise
+# Cloud / Premise
 [Locaweb - Hospedagem GO](https://www.locaweb.com.br/hospedagem-de-sites-com-dominio-gratis)
 
 _8 BRL | Monthly | SSL, DNS, Storage e Bandwidth (Unlimited)_
@@ -134,12 +134,12 @@ _8 BRL | Monthly | SSL, DNS, Storage e Bandwidth (Unlimited)_
 
 _10,60 BRL | Monthly | EU, 512 Mb Memory, 25Gb Storage, 2 Gb for 5 MySql Databases, Bandwidth (Unlimited)_
 
-#Etc
+# Etc
 - [Interface and Experience](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/v0.0.9.pdf)
 - [Accronyms Spreadsheet](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/Accronyms.pdf)
 - [Technical Conventions](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/Technical-Convention.pdf)
 
-#About
+# About
 I (gustavo_hen@hotmail.com) conceived, designed, developed, and researched the entire project during a freelancer contract, which serves as a Proof of Concept (PoC).
 
 Version 1.0 with multilingual support ready, and I am sharing its source code for any purpose.
