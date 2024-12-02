@@ -1,0 +1,74 @@
+*{
+    font-family: 'SignikaNegative_400Regular';
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    user-select: none;
+    background-color: '#FFF';
+}
+
+input{
+    outline: none;
+    user-select: text;
+    background: linear-gradient(0deg, #b4b4b400 25%, #d1d1d1 100%);
+}
+
+::placeholder{
+    font-style: italic;
+}
+
+input::selection {
+    color: white;
+    background: #8600FF;
+}
+
+#emptyWallet{
+    filter: grayscale(100%);
+}
+
+/* ========================================= Screen headlines ======================================*/
+
+#headline{
+    background: linear-gradient(40deg, #DB00FF -10.77%, #00F0FF 102.3%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/* ========================================= Selection Availability ======================================*/
+
+#mailto{
+    user-select: text;
+}
+
+/* ========================================= Splash ======================================*/
+
+div#custom{
+    background:
+        url('https://res.cloudinary.com/ds7es4cwb/image/upload/v1726526323/background-pattern_pnibev.png') repeat,
+        linear-gradient(210deg, #DB00FF -10.77%, #00F0FF 102.3%);
+}
+
+div#custom2{
+    background:
+        url('https://res.cloudinary.com/ds7es4cwb/image/upload/v1726526323/background-pattern_pnibev.png') repeat,
+        linear-gradient(200deg, #00F0FF -50%, #DB00FF 110%);
+}
+
+div#rounded{
+    background: radial-gradient(circle, rgba(255,255,255,0.4) 10%, rgba(255,255,255,0) 50%);
+    width: 100%;
+}
+
+/* ===================================== Game / Action =====================================*/
+
+div#arenaWrapper{
+    background: linear-gradient(180deg, rgba(0,0,0,0.3) 40%, rgba(0,0,0,1) 90%);
+}
+
+div#ibRoom{
+    background-color: #000;
+}

@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "start": "cypress open --env environment=Development",
+    "test": "cypress run --env environment=Development",
+
+    "start-dev": "cypress open --env environment=Development",
+    "test-dev": "cypress run --env environment=Development",
+
+    "start-prd": "cypress open --env environment=Production",    
+    "test-prd": "cypress run --env environment=Production"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.2",
+    "cypress": "^13.14.2"
+  }
+}

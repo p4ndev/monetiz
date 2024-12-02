@@ -1,0 +1,9 @@
+{
+  "AppHost": "https://monetiz.fun",
+  "Email": {
+    "Password": "",
+    "From": "admin@monetiz.fun",
+    "Host": "",
+    "Port": 587
+  }
+}

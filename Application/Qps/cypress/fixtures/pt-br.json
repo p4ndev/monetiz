@@ -1,0 +1,141 @@
+{
+	"headline": {
+		"tenant"					: "Escolha uma seção",
+		"category"					: "Tenho palpite para...",
+		"game"						: "Qual evento?",
+		"signIn"					: "Conecte-se",
+		"signUp"					: "Cadastre-se",
+		"recovery"					: "Recuperar acesso",
+		"reset"						: "Nova senha",
+		"howToPlay"					: "Como jogar",
+		"buy"						: "Comprar moedas",
+		"checkout"					: "Pix - Copie e Cole",
+		"activityBuy"				: "Compra de Moedas",
+		"successPurchase"			: "Tudo certo",
+		"withdraw"					: "Venda suas moedas",
+		"startedWithdraw"			: "Venda iniciada",
+		"activityWithdraw"			: "Venda de Moedas",
+		"activityPix"				: "Chave Pix"
+	},
+	"name": {
+		"esports"					: "E-Sports",
+		"soccer"					: "Futebol",
+		"realityShow"				: "Reality Show"
+	},
+	"html": {
+		"realityShow"				: "#btnTenant3",		
+		"aFazenda"					: "#btnCategory1",
+		"aGrandeConquista"			: "#btnCategory3",		
+		"soccer"					: "#btnTenant2",
+		"brasileirao"				: "#btnCategory2",		
+		"esports"					: "#btnTenant1",
+		"cbLol"						: "#btnCategory4",
+		"valorant"					: "#btnCategory5"
+	},
+	"url": {
+		"tenant"					: "lobby/tenant",
+		"category"					: "lobby/category",
+		"game"						: "room",
+		"booleanAction"				: "room/boolean-action",
+		"activity"					: "account/profile",
+		"signIn"					: "account/sign-in",
+		"viewport"					: "viewport-restriction",
+		"blockAccess"				: "invalid-access",		
+		"shoppingCart"				: "financial/shopping-cart",
+		"checkout"					: "financial/checkout",		
+		"financial"					: "financial",
+		"successCheckout"			: "financial/successful-checkout"
+	},
+	"player": {
+		"pain"						: "paiN",
+		"furia"						: "FURIA",
+		"sep"						: "Palmeiras",
+		"cuiaba"					: "Cuiabá",
+		"atleticoMg"				: "Atlético MG",
+		"timao"						: "Corinthians",
+		"loud"						: "LOUD",
+		"sentinels"					: "Sentinels"
+	},
+	"game": {
+		"valorant"					: "Playoffs",
+		"cbLol"						: "Semana 4",
+		"brasileirao"				: "Rodada 15"		
+	},
+	"general": {
+		"menu"						: "Menu",
+		"other"						: "Outra",
+		"yes"						: "Sim",
+		"no"						: "Não",
+		"error"						: "Erro",
+		"done"						: "Feito :)",
+		"coin"						: "moeda",
+		"coins"						: "moedas",
+		"currencySymbol"			: "R$",
+		"howToPlayCounter"			: 15
+	},
+	"error": {
+		"email"						: "Email inválido.",
+		"pass"						: "Senha inválida.",
+		"confirmationPass"			: "Confirmação de senha incorreta.",
+		"notFound"					: "Dados não encontrados.",
+		"conflicted"				: "Dados existentes.",
+		"blockAccess"				: "Acesso restrito.",
+		"viewportRestriction"		: "Modo de visualização inválido."
+	},
+	"operation": {
+		"updatePass"				: "Senha atualizada com sucesso.",
+		"badRequest"				: "Infelizmente o link expirou, ou os dados informados não são válidos.",
+		"isPlayer"					: "Já tenho conta",
+		"isAnonymous"				: "Quero me cadastrar",
+		"howToPlay"					: "Como jogar?"
+	},
+	"buy": {
+		"firstPackage"				: "15moedasR$ 3.75",
+		"secondPackage"				: "50moedasR$ 12.50",
+		"thirdPackage"				: "200moedasR$ 50.00",
+		"activityContent"			: "Recarga de créditos",
+		"removalContent"			: "Pagamento removido com sucesso."
+	},
+	"checkout": {
+		"title"						: "QR Code",
+		"content"					: "Clique no logotipo do Mercado Pago para abrir mais informações de pagamento, essa nova janela não fechará automaticamente.",
+		"info"						: "• Destinarário Gustavo Jaques;",
+		"tax"						: "• Todos os impostos já inclusos;",
+		"refresh"					: "• Transação atualizada automaticamente;",		
+		"product"					: "• 15 moedas por R$ 3.75;",		
+		"exp"						: "• Expirará em ",
+		"track"						: "• Código de identificação: ",
+		"success"					: "Compra efetuada com sucesso.",
+		"unsuccess"					: "Houve algum problema em sua compra."
+	},
+	"withdraw": {
+		"successContent"			: "Após análise, nossa equipe irá transferir seu dinheiro em até 5 dias úteis em sua chave pix.",
+		"activitySuccess"			: "Transferência em conta"
+	},
+	"pix": {
+		"fakeCpf"					: "000.000.000-00",
+		"titleCpf"					: "Cpf",
+		"fakeCnpj"					: "00.000.000/0000-00",
+		"titleCnpj"					: "Cnpj",
+		"fakeEmail"					: "fake@monetiz.fun",
+		"titleEmail"				: "Email",
+		"fakeCelular"				: "(00) 00000-0000",
+		"titleCelular"				: "Celular",
+		"fakeRandom"				: "123e4567-e89b-12d3-a456-426655440000",
+		"titleRandom"				: "Aleatória",
+		"activityLeft"				: "Item: Cpf",
+		"activityContent"			: "Nova chave adicionada"
+	},
+	"activity": {
+		"createdAt"					: "26/09/2024",
+		"activityBattle"			: "paiN Gaming x FURIA Esports",
+		"activitePositive"			: "Palpite: Sim",
+		"activiteNegative"			: "Palpite: Não",
+		"userActivationTitle"		: "Conta verificada",
+		"userActivationContent"		: "Seu email foi verificado"
+	},
+	"account": {
+		"recoveryTitle"				: "Email enviado",
+		"recoveryContent"			: "Caso há uma conta com esse email, siga os passos enviados."
+	}
+}

@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.7" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\Handlers\ExceptionHandler\ExceptionHandler.csproj" />
+    <ProjectReference Include="..\..\Module\Account\Account.csproj" />
+    <ProjectReference Include="..\..\Module\Lobby\Lobby.csproj" />
+    <ProjectReference Include="..\..\Module\Room\Room.csproj" />
+    <ProjectReference Include="..\..\Module\Financial\Financial.csproj" />
+
+    <ProjectReference Include="..\..\Infrastructure\Contexts\AccountRelationalContext\AccountRelationalContext.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Contexts\LobbyRelationalContext\LobbyRelationalContext.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Contexts\RoomRelationalContext\RoomRelationalContext.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Contexts\FinancialRelationalContext\FinancialRelationalContext.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Handlers\CorsHandler\CorsHandler.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Contexts\EmailContext\EmailContext.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Contexts\MercadoPagoContext\MercadoPagoContext.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "Lobby": "Host=localhost;Port=3307;Database=lobby;User Id=user;Password=dB_pAss;default command timeout=300;"
+  }
+}

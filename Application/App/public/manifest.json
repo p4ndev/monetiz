@@ -1,0 +1,24 @@
+{
+  "name": "MonetizAção",
+  "version": "1.0.0",
+  "short_name": "MNA",
+  "icons": [
+    {
+      "src": "https://res.cloudinary.com/ds7es4cwb/image/upload/v1727886592/android-chrome-192x192_v5wac1.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://res.cloudinary.com/ds7es4cwb/image/upload/v1727886592/android-chrome-512x512_kat8lt.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "orientation": "portrait",
+  "dir": "auto",
+  "lang": "pt-BR"
+}

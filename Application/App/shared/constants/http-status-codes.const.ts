@@ -1,0 +1,12 @@
+export const HttpStatusCode200OK = 200;
+export const HttpStatusCode201Created = 201;
+export const HttpStatusCode206PartialContent = 206;
+export const HttpStatusCode208AlreadyReported = 208;
+export const HttpStatusCode304NotModified = 304;
+export const HttpStatusCode401Unauthorized = 401;
+export const HttpStatusCode403Forbidden = 403;
+export const HttpStatusCode404NotFound = 404;
+export const HttpStatusCode409Conflict = 409;
+export const HttpStatusCode415UnsupportedMediaType = 415;
+export const HttpStatusCode499ClientClosedRequest = 499;
+export const HttpStatusCode500InternalServerError = 500;

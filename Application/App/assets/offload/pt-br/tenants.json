@@ -1,0 +1,13 @@
+[
+    {
+        "id": 1,
+        "name": "Reality Show",
+        "logotype": "https://res.cloudinary.com/ds7es4cwb/image/upload/v1724346512/reality-show_yfa5zd.svg",
+        "rgbs": [
+            "#ffbd88",
+            "#ffe841",
+            "#bd8200"
+        ],
+        "end": "2024-12-16T00:00:00"
+    }
+]

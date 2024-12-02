@@ -1,0 +1,12 @@
+{
+  "ConnectionStrings": {
+    "Financial": "Host=<IP>;Port=<PORT>;Database=<DATABASE_NAME>;User Id=<USER>;Password=<PASSWORD>;"
+  },
+  "Price": {
+    "Buy": 0.25,
+    "Sell": 0.10
+  },
+  "Aes": {
+    "Key": "JEIgYUIkvY6MUfNZRWRJJL29prl"
+  }
+}

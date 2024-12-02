@@ -1,0 +1,13 @@
+﻿{
+  "MercadoPago": {
+    "AccessToken": "",
+    "Descriptor": "",
+    "ExpirationHours": 24,
+    "PixTransaction": {
+      "Success": {
+        "Status": "approved",
+        "Detail": "accredited"
+      }
+    }
+  }
+}

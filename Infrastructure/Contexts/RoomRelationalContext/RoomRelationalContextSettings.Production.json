@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "Room": "Host=<IP>;Port=<PORT>;Database=<DATABASE_NAME>;User Id=<USER>;Password=<PASSWORD>;"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "AppHost": "http://localhost:8081",
+  "Email": {
+    "Password": "",
+    "From": "admin@monetiz.local",
+    "Host": "localhost",
+    "Port": 1025
+  }
+}

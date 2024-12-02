@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "tenantId": 1,
+        "name": "A Fazenda",
+        "summary": "Edição 16 | Record | 2024",
+        "logotype": "https://res.cloudinary.com/ds7es4cwb/image/upload/v1724350281/a-fazenda-10_bv5zic.jpg",
+        "start": "2024-09-16T00:00:00",
+        "end": "2024-12-16T00:00:00"
+    }
+]

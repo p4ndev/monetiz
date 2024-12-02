@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "MonetizAção",
+    "slug": "MNA",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "primaryColor": "#8801FE",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "requireFullScreen": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "display": "standalone",
+      "orientation": "portrait",
+      "barStyle": "black-translucent",
+      "themeColor": "#8801FE",
+      "lang": "pt-BR"
+    },
+    "plugins": [
+      "expo-localization",
+      "expo-font",
+      "expo-router"
+    ]
+  }
+}

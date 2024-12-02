@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {},
+  "extends": "expo/tsconfig.base",
+  "typescript.suggest.paths": true,
+  "javascript.suggest.paths": true,  
+  "key": ".",
+  "command": ""
+}

@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\Contexts\LobbyRelationalContext\LobbyRelationalContext.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Handlers\CryptoHandler\CryptoHandler.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Handlers\HttpControllerHandler\HttpControllerHandler.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Handlers\ValidationHandler\ValidationHandler.csproj" />
+  </ItemGroup>
+
+</Project>

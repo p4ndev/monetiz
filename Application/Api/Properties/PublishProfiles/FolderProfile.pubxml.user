@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\Clients\MonetizAcao\Projects\API\bin\Release\net8.0\publish\</_PublishTargetUrl>
+    <History>True|2024-09-23T23:55:20.2607493Z;True|2024-09-23T13:42:50.7043545-03:00;True|2024-09-17T12:14:15.6877550-03:00;True|2024-09-17T12:13:28.1655735-03:00;True|2024-09-17T11:22:13.0642710-03:00;True|2024-09-16T18:38:51.3993309-03:00;True|2024-09-16T18:28:26.7145843-03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

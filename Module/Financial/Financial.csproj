@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\Contexts\EmailContext\EmailContext.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Contexts\FinancialRelationalContext\FinancialRelationalContext.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Contexts\AccountRelationalContext\AccountRelationalContext.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Contexts\MercadoPagoContext\MercadoPagoContext.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Handlers\HttpControllerHandler\HttpControllerHandler.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Handlers\ValidationHandler\ValidationHandler.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Handlers\TimezoneHandler\TimezoneHandler.csproj" />
+    <ProjectReference Include="..\Account\Account.csproj" />
+  </ItemGroup>
+
+</Project>

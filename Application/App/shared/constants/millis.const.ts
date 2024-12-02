@@ -1,0 +1,15 @@
+export const Millis = {
+  CloseInitialModal : 600,
+  ArenaGeneralIssue : 900,
+  SignInSuccessful : 1500,
+  SignUpSuccessful : 1500,
+  PasswordResetSuccessful : 1500,
+  PasswordRecoverySuccessful : 1500,
+  CancelPixTransaction : 5000,
+  PixSettleRevision : 20000,
+  CheckoutExpirationDate : 5000,
+  InitialWithdraw : 5000,
+  RoomLabel : 15000,
+  ActivationSuccess : 3000,
+  PixKeyInstructions : 20000,
+};

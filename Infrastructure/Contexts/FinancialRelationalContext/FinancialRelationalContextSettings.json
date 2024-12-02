@@ -1,0 +1,12 @@
+{
+  "ConnectionStrings": {
+    "Financial": "Host=localhost;Port=3307;Database=financial;User Id=user;Password=dB_pAss;"
+  },
+  "Price": {
+    "Buy": 0.25,
+    "Sell": 0.10
+  },
+  "Aes": {
+    "Key": "a123e321s"
+  }
+}

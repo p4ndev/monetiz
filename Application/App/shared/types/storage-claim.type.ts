@@ -1,0 +1,1 @@
+export type StorageClaimType = string | Array<string> | null | undefined;

