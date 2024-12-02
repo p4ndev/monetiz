@@ -1,4 +1,4 @@
-![MonetizAction](https://dev.azure.com/monetizacao/c380ee07-2efe-4b78-9431-c446a5d39367/_apis/git/repositories/6c93098f-8895-4f84-999d-247543b3ecfb/items?path=/Company/v0.0.4-English.png&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=main&resolveLfs=true&%24format=octetStream&api-version=5.0 "Monetize Actions")
+![MonetizAction](v0.0.4-English.png "Monetize Actions")
 
 Experience a question-and-answer game where users can earn real money by predicting outcomes.
 
@@ -7,7 +7,7 @@ Experience a question-and-answer game where users can earn real money by predict
 
 Every prediction is linked to real-time events from live TV shows or streaming, delivering an engaging and interactive way to play.
 
-![Screens](https://dev.azure.com/monetizacao/c380ee07-2efe-4b78-9431-c446a5d39367/_apis/git/repositories/6c93098f-8895-4f84-999d-247543b3ecfb/items?path=/Company/Random.jpg&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=main&resolveLfs=true&%24format=octetStream&api-version=5.0)
+![Screens](Random.jpg)
 
 #See in Action
 - [Home](https://www.loom.com/embed/d858a2bc217949589847a1ec939a7737?sid=53a6d4a3-85f6-48bb-bb36-78688c76f941)
@@ -24,7 +24,7 @@ Everythins must be simpler and straight to the point, the main restriction is th
 
 Executions must follow the user interaction, no automatic execution is used due to the complexity inclusion at this moment.
 
-![Deployment](https://dev.azure.com/monetizacao/c380ee07-2efe-4b78-9431-c446a5d39367/_apis/git/repositories/6c93098f-8895-4f84-999d-247543b3ecfb/items?path=/Company/Architecture.jpg&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=main&resolveLfs=true&%24format=octetStream&api-version=5.0)
+![Deployment](Architecture.jpg)
 
 Back end was build in .Net Core based on a simples architecture style of client / server following some vertical concepts on its dependencies.
 
@@ -32,7 +32,7 @@ C Sharp (C#) was the Asp.Net Core language to express every business requirement
 
 Front end was built in React Native + Expo due to the future releases and possible native app development, but the first release will be 100% web browser.
 
-![Arena](https://dev.azure.com/monetizacao/c380ee07-2efe-4b78-9431-c446a5d39367/_apis/git/repositories/6c93098f-8895-4f84-999d-247543b3ecfb/items?path=/Company/Room.jpg&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=main&resolveLfs=true&%24format=octetStream&api-version=5.0)
+![Arena](Room.jpg)
 
 Typescript is the main language for back end project, to express clearly every single line of the code and follow best principles for the industry, on this case function programming is the style used.
 
@@ -40,16 +40,16 @@ No boilerplate / library (tailwind, material, bootstrap…) is used, just simple
 
 Focused on this MVP a monolith with a lowest cost on production providers (cloud, prem).
 
-![Core Projects](https://dev.azure.com/monetizacao/c380ee07-2efe-4b78-9431-c446a5d39367/_apis/git/repositories/6c93098f-8895-4f84-999d-247543b3ecfb/items?path=/Company/Core-Projects.png&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=main&resolveLfs=true&%24format=octetStream&api-version=5.0)
+![Core Projects](Core-Projects.png)
 
 #Backend
-![API](https://dev.azure.com/monetizacao/c380ee07-2efe-4b78-9431-c446a5d39367/_apis/git/repositories/6c93098f-8895-4f84-999d-247543b3ecfb/items?path=/Company/Api.webp&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=main&resolveLfs=true&%24format=octetStream&api-version=5.0)
+![API](Api.webp)
 
 ## Architecture
 https://youtu.be/LvsvttbihEI
 
 ## Solution
-![BE](https://dev.azure.com/monetizacao/c380ee07-2efe-4b78-9431-c446a5d39367/_apis/git/repositories/6c93098f-8895-4f84-999d-247543b3ecfb/items?path=/Company/BE-Solution.png&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=main&resolveLfs=true&%24format=octetStream&api-version=5.0)
+![BE](BE-Solution.png)
 
 ## Command
 - Run the command
@@ -63,13 +63,13 @@ https://youtu.be/LvsvttbihEI
 	- ``Visual Studio right click menu context``
 
 #Frontend
-![APP](https://dev.azure.com/monetizacao/c380ee07-2efe-4b78-9431-c446a5d39367/_apis/git/repositories/6c93098f-8895-4f84-999d-247543b3ecfb/items?path=/Company/App.webp&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=main&resolveLfs=true&%24format=octetStream&api-version=5.0)
+![APP](App.webp)
 
 ## Architecture
 https://youtu.be/za1F8jSitmo
 
 ## Solution
-![FE](https://dev.azure.com/monetizacao/c380ee07-2efe-4b78-9431-c446a5d39367/_apis/git/repositories/6c93098f-8895-4f84-999d-247543b3ecfb/items?path=/Company/FE-Solution.png&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=main&resolveLfs=true&%24format=octetStream&api-version=5.0)
+![FE](FE-Solution.png)
 
 ## Command
 - Attach the production variables
@@ -86,14 +86,14 @@ https://youtu.be/za1F8jSitmo
 ##Workflow
 | Requirement | Startup | Conclusion |
 |----------|:-------------:|------:|
-| [Purchase](https://dev.azure.com/monetizacao/c380ee07-2efe-4b78-9431-c446a5d39367/_apis/git/repositories/6c93098f-8895-4f84-999d-247543b3ecfb/items?path=/Company/Purchase-Use-Case.png&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=main&resolveLfs=true&%24format=octetStream&api-version=5.0) | [Initialization](https://dev.azure.com/monetizacao/c380ee07-2efe-4b78-9431-c446a5d39367/_apis/git/repositories/6c93098f-8895-4f84-999d-247543b3ecfb/items?path=/Company/Purchase-Initialization.png&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=main&resolveLfs=true&%24format=octetStream&api-version=5.0) | [Settlement](https://dev.azure.com/monetizacao/c380ee07-2efe-4b78-9431-c446a5d39367/_apis/git/repositories/6c93098f-8895-4f84-999d-247543b3ecfb/items?path=/Company/Purchase-Settle.png&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=main&resolveLfs=true&%24format=octetStream&api-version=5.0) |
-| [Withdraw](https://dev.azure.com/monetizacao/c380ee07-2efe-4b78-9431-c446a5d39367/_apis/git/repositories/6c93098f-8895-4f84-999d-247543b3ecfb/items?path=/Company/Withdraw-Use-Case.png&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=main&resolveLfs=true&%24format=octetStream&api-version=5.0) | [Initialization](https://dev.azure.com/monetizacao/c380ee07-2efe-4b78-9431-c446a5d39367/_apis/git/repositories/6c93098f-8895-4f84-999d-247543b3ecfb/items?path=/Company/Withdraw-Initialization.png&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=main&resolveLfs=true&%24format=octetStream&api-version=5.0) | [Bank Wire](https://dev.azure.com/monetizacao/c380ee07-2efe-4b78-9431-c446a5d39367/_apis/git/repositories/6c93098f-8895-4f84-999d-247543b3ecfb/items?path=/Company/Withdraw-Wire.png&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=main&resolveLfs=true&%24format=octetStream&api-version=5.0) |
+| [Purchase](Purchase-Use-Case.png) | [Initialization](Purchase-Initialization.png) | [Settlement](Purchase-Settle.png) |
+| [Withdraw](Withdraw-Use-Case.png) | [Initialization](Withdraw-Initialization.png) | [Bank Wire](Withdraw-Wire.png) |
 
 #Data
-![Entities](https://dev.azure.com/monetizacao/c380ee07-2efe-4b78-9431-c446a5d39367/_apis/git/repositories/6c93098f-8895-4f84-999d-247543b3ecfb/items?path=/Company/Entities.png&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=main&resolveLfs=true&%24format=octetStream&api-version=5.0)
+![Entities](Entities.png)
 
 ##Definition 
-![MAPS](https://dev.azure.com/monetizacao/c380ee07-2efe-4b78-9431-c446a5d39367/_apis/git/repositories/6c93098f-8895-4f84-999d-247543b3ecfb/items?path=/Company/Map-files.webp&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=main&resolveLfs=true&%24format=octetStream&api-version=5.0)
+![MAPS](Map-files.webp)
 
 ##Command
 - Account
@@ -106,13 +106,13 @@ https://youtu.be/za1F8jSitmo
 	- ``dotnet ef migrations add ______ --verbose --namespace Migrations.Room``
 
 ##Persisting
-![MIGRATIONS](https://dev.azure.com/monetizacao/c380ee07-2efe-4b78-9431-c446a5d39367/_apis/git/repositories/6c93098f-8895-4f84-999d-247543b3ecfb/items?path=/Company/Migrations.webp&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=main&resolveLfs=true&%24format=octetStream&api-version=5.0)
+![MIGRATIONS](Migrations.webp)
 
 - ``dotnet ef database update -- --environment=Development``
 - ``dotnet ef database update -- --environment=Production``
 
 #Quality
-![QPS](https://dev.azure.com/monetizacao/c380ee07-2efe-4b78-9431-c446a5d39367/_apis/git/repositories/6c93098f-8895-4f84-999d-247543b3ecfb/items?path=/Company/QPS-Solution.png&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=main&resolveLfs=true&%24format=octetStream&api-version=5.0)
+![QPS](QPS-Solution.png)
 
 ##Command
 - Development
@@ -121,9 +121,9 @@ https://youtu.be/za1F8jSitmo
 	- ``npm run start-prd``
 	
 ##Som Test Cases
-- [Sign in](https://dev.azure.com/monetizacao/c380ee07-2efe-4b78-9431-c446a5d39367/_apis/git/repositories/6c93098f-8895-4f84-999d-247543b3ecfb/items?path=/Company/QPS01-Test-Case.png&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=main&resolveLfs=true&%24format=octetStream&api-version=5.0)
-- [Elements Availability](https://dev.azure.com/monetizacao/c380ee07-2efe-4b78-9431-c446a5d39367/_apis/git/repositories/6c93098f-8895-4f84-999d-247543b3ecfb/items?path=/Company/QPS02-Test-Case.png&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=main&resolveLfs=true&%24format=octetStream&api-version=5.0)
-- [Content Restriction](https://dev.azure.com/monetizacao/c380ee07-2efe-4b78-9431-c446a5d39367/_apis/git/repositories/6c93098f-8895-4f84-999d-247543b3ecfb/items?path=/Company/QPS03-Test-Case.png&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=main&resolveLfs=true&%24format=octetStream&api-version=5.0)
+- [Sign in](QPS01-Test-Case.png)
+- [Elements Availability](QPS02-Test-Case.png)
+- [Content Restriction](QPS03-Test-Case.png)
 
 #Cloud / Premise
 [Locaweb - Hospedagem GO](https://www.locaweb.com.br/hospedagem-de-sites-com-dominio-gratis)
@@ -135,9 +135,9 @@ _8 BRL | Monthly | SSL, DNS, Storage e Bandwidth (Unlimited)_
 _10,60 BRL | Monthly | EU, 512 Mb Memory, 25Gb Storage, 2 Gb for 5 MySql Databases, Bandwidth (Unlimited)_
 
 #Etc
-- [Interface and Experience](https://dev.azure.com/monetizacao/c380ee07-2efe-4b78-9431-c446a5d39367/_apis/git/repositories/6c93098f-8895-4f84-999d-247543b3ecfb/items?path=/Company/v0.0.9.pdf&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=main&resolveLfs=true&%24format=octetStream&api-version=5.0&download=true)
-- [Accronyms Spreadsheet](https://dev.azure.com/monetizacao/c380ee07-2efe-4b78-9431-c446a5d39367/_apis/git/repositories/6c93098f-8895-4f84-999d-247543b3ecfb/items?path=/Company/Accronyms.pdf&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=main&resolveLfs=true&%24format=octetStream&api-version=5.0&download=true)
-- [Technical Conventions](https://dev.azure.com/monetizacao/c380ee07-2efe-4b78-9431-c446a5d39367/_apis/git/repositories/6c93098f-8895-4f84-999d-247543b3ecfb/items?path=/Company/Technical-Convention.pdf&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=main&resolveLfs=true&%24format=octetStream&api-version=5.0&download=true)
+- [Interface and Experience](v0.0.9.pdf)
+- [Accronyms Spreadsheet](Accronyms.pdf)
+- [Technical Conventions](Technical-Convention.pdf)
 
 #About
 I (gustavo_hen@hotmail.com) conceived, designed, developed, and researched the entire project during a freelancer contract, which serves as a Proof of Concept (PoC).
