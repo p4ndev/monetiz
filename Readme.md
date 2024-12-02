@@ -69,7 +69,7 @@ https://youtu.be/LvsvttbihEI
 https://youtu.be/za1F8jSitmo
 
 ## Solution
-![FE](FE-Solution.png)
+![FE](https://raw.githubusercontent.com/p4ndev/monetiz/refs/heads/master/Files/FE-Solution.png)
 
 ## Command
 - Attach the production variables
